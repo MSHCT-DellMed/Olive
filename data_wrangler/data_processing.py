@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-DEFAULT_INPUT_PATH = './OliveTest/input/'
-DEFAULT_OUTPUT_PATH = './OliveTest/input/'
+DEFAULT_INPUT_PATH = './Olive/input/'
+DEFAULT_OUTPUT_PATH = './Olive/input/'
 DEFAULT_FILENAME = 'output'
 
 
