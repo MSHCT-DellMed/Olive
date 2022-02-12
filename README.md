@@ -18,6 +18,8 @@ If no input_path is passed, it defaults to `'./Olive/input/'`
 
 When sorting and de-duplicating the data, one can specify whether to take the most recent, or the first entry.
 
+A pandas dataframe can be accessed using the `dw.df` attribute.
+
 ```Python
 dw.to_csv(output_path=None, filename='')
 ```
