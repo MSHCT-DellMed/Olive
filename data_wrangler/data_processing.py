@@ -47,6 +47,7 @@ class DataWrangler:
             self.df = self.df.sort_values(by='timestamp', ascending=True)
         self.df = self.df.drop_duplicates(subset='id')
         self.df = self.df.sort_values(by='id', ascending=True)
+        self.df = self.df.set_index('id', drop=True)
 
     def process_csv_files(self, input_path=None, most_recent=True):
         """
